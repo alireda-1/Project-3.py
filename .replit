@@ -1,0 +1,11 @@
+[workflows]
+runButton = "python"
+
+[[workflows.workflow]]
+name = "python"
+mode = "sequential"
+author = 65895905
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 pithon2.py"
